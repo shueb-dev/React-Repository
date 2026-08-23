@@ -9,7 +9,7 @@ function App() {
   }
 
   function Join() {
-    if (names.length <= 5) {
+    if (names.length < 5) {
       setNames([...names, name]);
     } else {
       alert("the waitlist is full");

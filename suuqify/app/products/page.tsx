@@ -31,7 +31,7 @@ async function Products() {
               </Link>
               <p>$ {products.price}</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-success position: absolute  bottom-2   text-xl  ">
+                <button className="btn btn-success position: absolute  bottom-2 text-xl ">
                   Buy Now
                 </button>
               </div>
